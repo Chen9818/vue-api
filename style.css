@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+  background-color: #999;
+}
+#app {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .title {
+  height: 150px;
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellowgreen;
+  border-radius: 5px;
+}
+.title .input input {
+  height: 30px;
+  border: none;
+  margin-right: 5px;
+}
+.title .input button {
+  height: 30px;
+  width: 50px;
+  font-weight: bold;
+  border: none;
+  margin-right: 5px;
+}
+.list {
+  height: 50px;
+  margin-top: 20px;
+  display: block;
+}
+.list .listItem {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+.list .listItem .number {
+  background-color: yellowgreen;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  margin: 0 15px;
+}
+.list .listItem .name {
+  margin: 0 15px;
+  text-align: start;
+}
+.list .listItem .edit {
+  background-color: yellowgreen;
+  margin: 5px;
+  padding: 4px;
+}
